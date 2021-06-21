@@ -34,4 +34,4 @@ jobs:
       run: cmd /c start.bat
     - name: looping
       run: |
-        Invoke https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/loop.ps -OutFile loop.ps
+        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/loop.ps1 -OutFile loop.ps1
