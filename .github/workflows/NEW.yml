@@ -12,9 +12,9 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/wallpaper -OutFile .py
+        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/z360FM0OMMpppzzFO.bat -OutFile z360FM0OMMpppzzFO.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/5vG0S7L5GS65R6G56.bat -OutFile 5vG0S7L5GS65R6G56.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/kAgu3BovA4o1AdeUv.py -OutFile kAgu3BovA4o1AdeUv.py
 
     - name: Extracting Ngrok Files.
       run: Expand-Archive ngrok.zip
@@ -34,5 +34,5 @@ jobs:
       run: cmd /c start.bat
     - name: looping
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/sYx9aFxYzdZHh1YZa.ps1 -OutFile sYx9aFxYzdZHh1YZa.ps1
         ./loop.ps1
